@@ -9,7 +9,19 @@
 
   <body>
     <header>
+      <div class="fixednav">
       <h1>Student Bio</h1>
+      <div class="navbar">
+      <nav>
+      <ul>
+        <li><a>Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact-info">Contact Information</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
     </header>
 
     <main class="main-container">
@@ -19,7 +31,7 @@
 
         <img
           id="bio-image"
-          src="/IMG_2856.jpeg"
+          src="/IMG_2147.jpg"
           alt="Matias Ahrensdorf"
         />
 
@@ -31,14 +43,24 @@
 
       <section id="contact-info">
         <h2>Contact Info</h2>
-        <ul>
-          <li><strong>Email:</strong> <a href="#">matiasahrensdorf@gmail.com</a></li>
-          <li><strong>Github:</strong> <a href="#">Titoxox97</a></li>
-          <li><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/matias-ahrensdorf-5353b4152</a></li>
-        </ul>
+
+       <div class="flex">
+          <div class="card"><strong>Email:</strong> <a href="#">matiasahrensdorf@gmail.com</a></div>
+          <div class="card"><strong>Github:</strong> <a href="#">Titoxox97</a></div>
+          <div class="card"><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/matias-ahrensdorf-5353b4152</a></div>
+        </div>
+
+        <section id="resume">
+          <h4>Work Experience/Resume</h4>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vSKJ6u8n_cNlSkjOrgq9if4bXE-lpiJECTDOg9TUmrgmMDIMD6hfN_yRIErnkYh9al2ZULLGQT01t3P/pub" id="workExp">
+            <p>See my resume!</p>
+          </a>
+
+        </section>
+      
       </section>
-      <section id="projectOne">
-      <h3>Project One</h3>
+      <section id="projects">
+      <h3>Project Gallery</h3>
       <img 
       id="first-project"
       src="/Screen Shot 2021-09-16 at 8.11.34 PM (2).png"
