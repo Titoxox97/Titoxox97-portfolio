@@ -1,14 +1,14 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #333;
-  background-image: linear-gradient(45deg, white, red);
+  background-image: linear-gradient(45deg, white, #2bd2ff);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin: 0%;
 }
 header {
-  background-image: linear-gradient(45deg, red, #2bd2ff, white);
+  background-image: linear-gradient(45deg, red, white, black);
 }
 
 .fixednav {
@@ -20,7 +20,7 @@ header {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(45deg, red, #2bd2ff, white);
+  background-image: linear-gradient(45deg, red, white, black);
   border-bottom: 1px solid black;
   
 }
@@ -78,6 +78,13 @@ h1 {
 #first-project {
   max-width: 300px;
   max-height: 200px;
+  padding-bottom: 20px;
+}
+
+#project_two {
+  max-width: 300px;
+  max-height: 200px;
+  padding-top: 20px;
 }
 
 #Bio {
